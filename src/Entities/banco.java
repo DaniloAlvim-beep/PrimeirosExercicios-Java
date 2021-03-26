@@ -2,10 +2,14 @@ package Entities;
 
 public class banco {
 
-	private int number;
+	private Integer number;
 	private String holder;
-	private double balance;
+	private Double balance;
 	
+	
+	public banco() {
+		
+	}
 	public banco(int number, String holder, double initialDeposit) {
 		this.number = number;
 		this.holder = holder;

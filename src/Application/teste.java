@@ -26,7 +26,7 @@ public class teste {
 		
 		
 		for (int i=0; i<vect.length; i++); {
-			sum += vect[i].getPrice();
+			sum += vect[n].getPrice();
 		}
 		
 		double avg = sum / vect.length;

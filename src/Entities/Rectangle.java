@@ -1,6 +1,6 @@
 package Entities;
 
-public class Rectangle {
+public class Rectangle extends Shape {
 	public double width;
 	public double height;
 	

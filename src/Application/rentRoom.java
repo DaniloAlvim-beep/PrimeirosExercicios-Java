@@ -1,6 +1,7 @@
 package Application;
 
 import java.util.Locale;
+
 import java.util.Scanner;
 
 import Entities.Rent;
@@ -39,6 +40,7 @@ public class rentRoom {
 			}
 		}
 
+		sc.close();
 	}
 
 }

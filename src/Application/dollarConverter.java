@@ -8,10 +8,10 @@ import util.currencyConverter;
 public class dollarConverter {
 
 	public static void main(String[] args) {
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double reais;
 		
 		System.out.print("What is the dollar price : ");
 		double dollarPrice = sc.nextDouble();
@@ -21,6 +21,8 @@ public class dollarConverter {
 		
 		double currencyValue = currencyConverter.tax(dollarBought, dollarPrice);
 		System.out.print("Amount to be paid in reais " + currencyValue );
+		
+		sc.close();
 	}
-
+	
 }
